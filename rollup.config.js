@@ -13,6 +13,7 @@ export default [
       nodeResolve({
         jsnext: true,
         extensions: [".ts"],
+        exportConditions: ["node"],
       }),
       commonjs(),
       babel({
