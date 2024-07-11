@@ -1,0 +1,6 @@
+/grammar/*
+!/grammar/.gitkeep
+src/grammar/*
+!src/grammar/.gitkeep
+out
+/node_modules
